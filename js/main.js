@@ -6,7 +6,7 @@ $(document).ready(function () {
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", "data/day1.json", true);
     rawFile.onreadystatechange = function () {
-        if (rawFile.readyState == 4 && rawFile.status == 0) {
+        if (rawFile.readyState == 4 && rawFile.status == 200) {
             data = JSON.parse(rawFile.responseText);
             var template = $('#handlebars-demo').html();
             var templateScript = Handlebars.compile(template);
@@ -73,7 +73,7 @@ function submitHandler() {
     rawFile1.overrideMimeType("application/json");
     rawFile1.open("GET", "data/day1k.json", true);
     rawFile1.onreadystatechange = function () {
-        if(rawFile1.readyState == 4 && rawFile1.status == 0){
+        if(rawFile1.readyState == 4 && rawFile1.status == 200){
         datak = JSON.parse(rawFile1.responseText);
         correct(datak);
         }
