@@ -2,7 +2,7 @@
     "questions": [
         {
             "questionId": "1",
-            "question": "img/1.png",
+            "question": "../    img/1.PNG",
             "option1": "1 , 2",
             "option2": "-1,2",
             "option3": "-1,-2",
@@ -10,7 +10,7 @@
         },
         {
             "questionId": "2",
-            "question": "img/2.png",
+            "question": "img/2.PNG",
             "option1": "a",
             "option2": "b",
             "option3": "c",
