@@ -2,6 +2,7 @@ var data;
 $(document).ready(function () {
     if(sessionStorage.getItem("log")==null)
     {
+        sessionStorage.setItem("exam","started");
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", "data/day1.json", true);
@@ -95,6 +96,7 @@ function correct(datak) {
             countval++;
         }
     }
+    sessionStorage.setItem("marks",countval);
     alert("No of questions answered : "+questionAns+"\n"+"No of questions Correct is : "+countval);
     sessionStorage.setItem("log","ended");
     window.location="End.html"

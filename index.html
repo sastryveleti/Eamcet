@@ -7,25 +7,45 @@
     <title>Start</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/base.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
-<body style="background-color: cyan;">
+
+<body>
     <div class="center">
         <h5>A.P.S.W.R.IIT-MEDICAL ACADEMY; GUNTUR</h5>
         <h5>EAMCET 2020</h5>
     </div>
 
     <br><br><br>
-    
+
     <div class="center">
+        <div class="row textin">
+            <div class="input-field col s5">
+                <input id="last_name" type="text" class="validate" required="" aria-required="true">
+                <label for="last_name"><strong>Enter Name</strong></label>
+            </div>
+        </div>
         <h5>Inorder to Start the Exam click below</h5>
         <br>
-        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="exam()">Start</button></div>
+        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="exam()">Start</button>
+    </div>
     <script>
         function exam() {
-            window.location = 'exam.html'
+            if (sessionStorage.getItem("exam") == null) {
+                if (document.getElementById("last_name").value != null && document.getElementById("last_name").value != "") {
+                    sessionStorage.setItem("Name", document.getElementById("last_name").value);
+                    window.location = 'exam.html'
+                }
+                else {
+                    alert("Please Enter the Name");
+                }
+            }
+            else {
+                alert("You have already started exam please don't go to and fro");
+            }
         }
     </script>
 </body>
