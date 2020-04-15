@@ -88,14 +88,14 @@ function correct(datak) {
     console.log(datak);
     for (var i in data["questions"]) {
         checkedValue = $('.' + data["questions"][i]["questionId"] + ':checked').val();
-        if(checkedValue== undefined){
+        if(checkedValue!= undefined){
             questionAns++;
         }
         if (datak["key"][i]["keyVal"] == checkedValue) {
             countval++;
         }
     }
-    alert("Bo of questions answered : "+questionAns+"\n"+"No of questions Correct is : "+countval);
+    alert("No of questions answered : "+questionAns+"\n"+"No of questions Correct is : "+countval);
     sessionStorage.setItem("log","ended");
     window.location="End.html"
 }
