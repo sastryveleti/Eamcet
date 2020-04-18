@@ -1,0 +1,205 @@
+{
+    "questions": [
+        {
+            "questionId": "1",
+            "question": "img/1.PNG",
+            "option1": "1 , 2",
+            "option2": "-1,2",
+            "option3": "-1,-2",
+            "option4": "2,1"
+        },
+        {
+            "questionId": "2",
+            "question": "img/2.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "3",
+            "question": "img/3.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "4",
+            "question": "img/4.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "5",
+            "question": "img/5.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "6",
+            "question": "img/6.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "7",
+            "question": "img/7.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "8",
+            "question": "img/8.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "9",
+            "question": "img/9.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "10",
+            "question": "img/10.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "11",
+            "question": "img/11.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "12",
+            "question": "img/12.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "13",
+            "question": "img/13.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "14",
+            "question": "img/14.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "15",
+            "question": "img/15.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "16",
+            "question": "img/16.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "17",
+            "question": "img/17.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "18",
+            "question": "img/18.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "19",
+            "question": "img/19.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "20",
+            "question": "img/20.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "21",
+            "question": "img/21.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "22",
+            "question": "img/22.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "23",
+            "question": "img/23.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "24",
+            "question": "img/24.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        },
+        {
+            "questionId": "25",
+            "question": "img/25.PNG",
+            "option1": "a",
+            "option2": "b",
+            "option3": "c",
+            "option4": "d"
+        }
+    ],
+    "Topic":"DETERMINANTS"
+}

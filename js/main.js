@@ -5,7 +5,7 @@ $(document).ready(function () {
         sessionStorage.setItem("exam","started");
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", "data/day1.json", true);
+    rawFile.open("GET", "data/determinants.json", true);
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState == 4 && rawFile.status == 200) {
             data = JSON.parse(rawFile.responseText);
@@ -72,7 +72,7 @@ function submitHandler() {
     var datak;
     var rawFile1 = new XMLHttpRequest();
     rawFile1.overrideMimeType("application/json");
-    rawFile1.open("GET", "data/day1k.json", true);
+    rawFile1.open("GET", "data/determinantsk.json", true);
     rawFile1.onreadystatechange = function () {
         if(rawFile1.readyState == 4 && rawFile1.status == 200){
         datak = JSON.parse(rawFile1.responseText);
